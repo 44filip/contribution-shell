@@ -11,7 +11,7 @@ if ($changes) {
     # Add all the uncommitted changes, then commit, and push
     git add -a
     git commit -m "$commitMessage"
-    git push -u origin main 
+    git push -u "$remoteUrl" main
 }
 else {
     Write-Host "No changes to commit."
