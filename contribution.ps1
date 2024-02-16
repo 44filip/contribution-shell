@@ -5,7 +5,6 @@ if (!(Test-Path -Path $filePath -PathType Directory)) {
 
 $repoDir = "D:\GitHub\contribution-shell"
 $commitMessage = "Automatic commit from Task Scheduler"
-$remoteUrl = "https://github.com/44filip/contribution-shell.git"
 
 # Text file generation
 $dateTime = Get-Date -Format "dd/MM/yyyy"
