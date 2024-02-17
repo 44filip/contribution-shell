@@ -7,7 +7,7 @@ $repoDir = "D:\GitHub\contribution-shell"
 $commitMessage = "Automatic commit from Task Scheduler"
 
 # Text file generation
-$dateTime = Get-Date -Format "dd/MM/yyyy"
+$dateTime = Get-Date -Format "MM/dd/yyyy"
 $filePath = Join-Path $repoDir "text_files\$dateTime.txt"
 
 # Creating the empty text file
